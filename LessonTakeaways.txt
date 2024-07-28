@@ -1,0 +1,41 @@
+Lesson 1 :
+
+Lesson Takeaways
+
+Awesome! You completed your first lesson 🚀. Remember the following important points:
+
+💡 You can write code that generates outputs with the System.out.println() statement
+
+💡 The println instruction needs to be followed by parentheses.
+
+Lesson 2:
+
+Lesson Takeaways
+
+Great work 🎯! You completed the lesson. You learned that:
+
+💡 You can add multiple statements to your programs
+
+💡 Text needs to be enclosed in quotes
+
+💡 Java is a case-sensitive language.
+
+In the next lesson, you’ll learn about the structure of programs in Java.
+
+Lesson 3:
+
+Lesson Takeaways
+
+Great job 🎯! You now know how to create a valid Java program structure!
+
+Remember the following important points:
+
+💡 You need to start your program by creating a class.
+
+💡 The class needs to include a main method, which is the starting point of the program.
+
+💡 The main method includes the statements that need to be executed when the program runs.
+
+💡 The class, as well as the main method opens and closes using opening and closing curly brackets.
+
+Lesson 4:
