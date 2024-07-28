@@ -39,3 +39,19 @@ Remember the following important points:
 💡 The class, as well as the main method opens and closes using opening and closing curly brackets.
 
 Lesson 4:
+
+Lesson Takeaways
+
+Great job 🎯! You now know how to create a valid Java program structure!
+
+Remember the following important points:
+
+💡 You need to start your program by creating a class.
+
+💡 The class needs to include a main method, which is the starting point of the program.
+
+💡 The main method includes the statements that need to be executed when the program runs.
+
+💡 The class, as well as the main method opens and closes using opening and closing curly brackets.
+
+Lesson 5 :
