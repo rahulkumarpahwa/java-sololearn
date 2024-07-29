@@ -156,3 +156,29 @@ class Demo {
     }
 }
 
+// Lesson 5 Finished.
+
+//Lesson 6 Started : 
+//Storing Characters
+
+// The given program declares a variable that holds all the letters of the English alphabet. Task: Complete the program to output the value of the variable.
+public class Program {
+    public static void main(String[] args) {
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        
+    }
+}
+
+//solution:
+public class Program {
+    public static void main(String[] args) {
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        System.out.println(alphabet);
+    }
+}
+
+//Lesson 6 Finished.
+
+//Lesson 7 Started:
+
+

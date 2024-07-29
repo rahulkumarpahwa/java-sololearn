@@ -69,3 +69,17 @@ Awesome! Here are some key takeaways:
  - A variable can change its value during the program, by being assigned to a new value.
 
 Lesson 6 :
+
+Lesson Takeaways 
+
+Awesome! Here are some key takeaways:
+
+ - A variable has a name and a type of the value it holds.
+
+ - To declare a variable use the type followed by the name of the variable.
+
+ - You can assign a value to the declared variable using the = operator.
+
+ - A variable can change its value during the program, by being assigned to a new value.
+
+Lesson 7 :
