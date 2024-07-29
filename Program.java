@@ -181,4 +181,104 @@ public class Program {
 
 //Lesson 7 Started:
 
+//Types
 
+// There are other types that you can use for variables. The int type is used to store whole numbers (or integers, as we call them in programming).
+
+class Demo {
+    public static void main(String[] args) {
+        int age = 42; 
+
+        System.out.println(age);
+    }
+}
+
+//Decimals
+// To work with decimal numbers, use the type double:
+
+class Demo {
+    public static void main(String[] args) {
+        double weight = 12.5; 
+
+        System.out.println(weight);
+    }
+}
+
+// Decimals
+
+// Java has another type for decimals called float. When using the float type, you need to use an f postfix after the value:
+class Demo {
+    public static void main(String[] args) {
+        float height = 1.94f; 
+
+        System.out.println(height);
+    }
+}
+
+// This tells Java to use the value as a float, instead of double.
+// Wondering what's the difference between float and double? Tap Continue to learn more!
+
+// float vs double
+
+/* By default, decimal values are of type double.
+
+float is using less storage in the memory, but is not as precise as the double type.
+
+This means that the calculations that use floats are faster than the ones that use double, however, the result is less accurate in terms of the decimal digits. */
+
+//As a general rule: use float instead of double when memory usage is critical. If you need more precise computations, for example, when dealing with currency, use double.
+
+// Characters
+
+// The char type is used to hold a single character. It is created similar to Strings, however it uses single quotes for the value:
+class Demo {
+    public static void main(String[] args) {
+        char letter = 'B'; 
+
+        System.out.println(letter);
+    }
+}
+
+//Boolean
+
+// Another important type is boolean. It can hold only the values true or false. This is handy when we work with states or conditions, for example:
+class Demo {
+    public static void main(String[] args) {
+        boolean isOpen = false; 
+
+        System.out.println(isOpen);
+    }
+}
+
+// For example, the boolean above can show whether a shop is open or closed.
+
+// chapter 7 Finished.
+
+// chapter 8:
+// PRACTICE EXERCISE
+// Displaying Account Balance
+
+// The given program declares a label and a balance variable, and assigns it to their values. Then, it outputs the label and the balance values. However, the code is missing the required types of the variables
+
+// Task: Add the required types to make the program work as expected.
+
+public class Program {
+    public static void main(String[] args) {
+        label = "Balance";
+        balance = 599.84;
+
+        System.out.println(label);
+        System.out.println(balance);
+    }
+}
+
+// my solution
+public class Program {
+    public static void main(String[] args) {
+       String label = "Balance";
+        double balance = 599.84;
+
+        System.out.println(label);
+        System.out.println(balance);
+    }
+}

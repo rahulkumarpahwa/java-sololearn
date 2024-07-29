@@ -83,3 +83,36 @@ Awesome! Here are some key takeaways:
  - A variable can change its value during the program, by being assigned to a new value.
 
 Lesson 7 :
+Lesson Takeaways  
+
+Great job! Here are some key takeaways:
+
+ - int holds integers (whole numbers).
+
+ - double holds decimal numbers.
+
+ - float is similar to double, but has less precision and requires less memory.
+
+ - You need to use an f postfix after the value to make it a float (for example: 3.14f)
+
+ - char holds a single character.
+
+ - boolean can have one of the following values: true or false.
+
+Lesson 8 :
+Lesson Takeaways  
+
+Great job! Here are some key takeaways:
+
+ - int holds integers (whole numbers).
+
+ - double holds decimal numbers.
+
+ - float is similar to double, but has less precision and requires less memory.
+
+ - You need to use an f postfix after the value to make it a float (for example: 3.14f)
+
+ - char holds a single character.
+
+ - boolean can have one of the following values: true or false.
+
