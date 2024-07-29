@@ -101,3 +101,58 @@ class Demo{
 }
 
 // chapter 4 finished.
+
+//chapter 5:
+
+// Every program works with values.
+// A variable lets you store a value by assigning it to a name. The name can be used to refer to the value later in the program.
+
+// Every variable has a type, which defines the type of the value it holds.
+// A variable can hold a text value, a number, a decimal, etc.
+// We are already familiar with text values - they are created using quotes:
+
+"this is some text"
+
+// Text in quotes is called a String.
+
+// Let's create a variable of type String:
+String name;
+
+//This creates a variable called name of type String. Now, our variable name can hold String values.
+// In programming terms, the process of creating a variable is called declaration.
+//After declaring our variable, we can assign it a value using the assignment = operator:
+
+String name;
+name = "James";
+//Now, name holds the value "James".
+//Note, that the type String should start with a capital letter S. A lowercase version will cause an error.
+
+// We can use our variable in our program.
+// For example, let's output its value using println():
+class Demo {
+    public static void main(String[] args) {
+        String name;
+        name = "James";
+        System.out.println(name); 
+    }
+}
+
+// We can combine the declaration and assignment into one statement, like this:
+class Demo {
+    public static void main(String[] args) {
+        String name = "James";
+
+        System.out.println(name);
+    }
+}
+// This is handy when we already know the value for our variable and makes the code shorter and more readable.
+//A variable can change its value during the program multiple times. For example, the player of a game can change his name:
+class Demo {
+    public static void main(String[] args) {
+        String name = "James";
+        name = "David";
+
+        System.out.println(name);
+    }
+}
+
