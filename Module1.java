@@ -539,4 +539,4 @@ public class Program {
 
 // chapter 12 finished.
 
-// Module 1 quiz :
+// module 1 completed.
