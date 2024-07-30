@@ -282,3 +282,133 @@ public class Program {
         System.out.println(balance);
     }
 }
+
+// Chapter 8 Finished.
+
+// Chapter 9:
+//Doing Math
+
+// You can use common math operators to perform calculations. For example:
+class Demo {
+    public static void main(String[] args) {
+        int x = 6;
+        int y = 3;
+
+        System.out.println(x+y);
+    }
+}
+
+// This will output the sum of the two variables.
+//The result can be assigned to another variable, like this:
+class Demo {
+    public static void main(String[] args) {
+        double price1 = 24.99;
+        double price2 = 19.45;
+
+        double sum = price1 + price2;
+
+        System.out.println(sum);
+    }
+}
+
+//Similarly, you can use - for subtraction:
+class Demo {
+    public static void main(String[] args) {
+        int salary = 90000;
+        int tax = 15000;
+        int result = salary - tax;  
+
+        System.out.println(result);
+    }
+}
+
+//The * operator multiplies two values. Let's use it to find how much is 20% of the given value:
+class Demo {
+    public static void main(String[] args) {
+        int price = 1200;
+
+        System.out.println(price*0.2);
+    }
+}
+
+/* Division
+
+The <b>/</b> operator divides one value by another.
+
+The following program calculates how many products with the given price you can buy with the given amount: */
+
+class Demo {
+    public static void main(String[] args) {
+        int amount = 9000;
+        int price = 49;
+        int result = amount/price;
+
+        System.out.print(result);
+    }
+}
+
+//In the example above, the result of the division equation will be a whole number, as int is used as the data type. 
+//You can use double to get the result of the division with a decimal point.
+class Demo {
+    public static void main(String[] args) {
+        double amount = 9000;
+        double price = 49;
+        double result = amount/price;
+
+        System.out.print(result);
+    }
+}
+
+//The result of dividing two doubles is a double.
+
+/*
+ Modulo
+
+The modulo % (or remainder) math operation returns the remainder of a division. 
+
+For example, let's use it to find how many of the given items will be left over if we place them in boxes of 5:
+ */
+
+class Demo {
+    public static void main(String[] args) {
+        int items = 23;
+        int res = items % 5; 
+
+        System.out.print(res);
+    }
+}
+
+/*
+ * Strings
+
+Java allows to add together strings, using the + operator. The result is the combination of the strings.
+
+For example, let's combine the first and last names to result in the full name of a user:
+ */
+
+ class Demo {
+    public static void main(String[] args) {
+        String firstname = "James";
+        String lastname = "Smith";
+        String fullname = firstname+lastname;
+
+        System.out.print(fullname);
+    }
+}
+
+//Note, that the result will combine the given strings without any separator. We can add a space " " between them:
+
+class Demo {
+    public static void main(String[] args) {
+        String firstname = "James ";
+        String lastname = "Smith";
+        String fullname = firstname+lastname;
+
+        System.out.print(fullname);
+    }
+}
+
+//The process of adding strings together is called concatenation. You can also concatenate strings with other types, such as integers and doubles.
+
+// Chapter 9 Finished.
+
