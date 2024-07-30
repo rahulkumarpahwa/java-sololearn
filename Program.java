@@ -447,3 +447,54 @@ public class Program {
 
 
 // chapter 10 finished.
+
+//chapter 11:
+
+//Comments
+
+// One more thing to learn before wrapping up the first module! Comments are annotations in the code that explain what the code is doing. Code is for computers, while comments are for humans who read and work with the code.
+
+//A single-line comment starts with two forward slashes and continues until it reaches the end of the line. For example:
+
+class Demo {
+    public static void main(String[] args) {
+        // storing the age of the user
+        int age = 23; // this is just a demo value
+
+        System.out.print(age);
+    }
+}
+
+//Adding comments as you write code is a good practice, because they provide clarification and understanding when you need to refer back to it, as well as for others who might need to read it. 
+
+//You can also comment out lines of code, in case they are work-in-progress or you don't want to delete it yet:
+class Demo {
+    public static void main(String[] args) {
+        int age = 23;
+        //int height = 122;
+        System.out.println(age);
+        //System.out.println(height);
+    }
+}
+//The commented lines of code will get ignored when you run the program.
+
+// Multi-Line Comments
+
+// If you need to comment out multiple lines, or write a multi-line comment, you can use the <b>/* */</b> symbols, like this:
+
+class Demo {
+    public static void main(String[] args) {
+        /*  This is just a
+        demo program
+        that outputs a number */
+        int age = 23;
+        
+        System.out.println(age);
+    }
+}
+
+//Anything between the /* and */ symbols becomes a comment. You can also use multi-line comments to comment out multiple lines of code.
+
+// Chapter 11 finished.
+
+// Chapter 12:
