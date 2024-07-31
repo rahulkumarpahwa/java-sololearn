@@ -311,3 +311,15 @@ Logical operators allow to combine multiple conditions.
 Next lesson will be fun! We will cover loops, which allow to repeat a block of code multiple times. 
 
 Lesson 8:
+
+Lesson Takeaways  
+
+Logical operators allow to combine multiple conditions.
+
+- The AND operator <b>&amp;&amp;</b> combines two conditions and checks if both of them are true.
+
+- The OR operator <b>||</b> check if any of the conditions if true.
+
+- The NOT operator <b>!</b> reverses the condition.
+
+Next lesson will be fun! We will cover loops, which allow to repeat a block of code multiple times. 
