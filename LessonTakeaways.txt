@@ -295,3 +295,19 @@ The <b>switch </b>statement is a handy way to check for multiple values and run 
  - The <b>default </b>case can be used to run code if none of the cases match.
 
 In the next lesson, we will learn how to check for multiple conditions.
+
+Lesson 7:
+
+Lesson Takeaways  
+
+Logical operators allow to combine multiple conditions.
+
+- The AND operator <b>&amp;&amp;</b> combines two conditions and checks if both of them are true.
+
+- The OR operator <b>||</b> check if any of the conditions if true.
+
+- The NOT operator <b>!</b> reverses the condition.
+
+Next lesson will be fun! We will cover loops, which allow to repeat a block of code multiple times. 
+
+Lesson 8:
