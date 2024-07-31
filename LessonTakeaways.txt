@@ -267,3 +267,20 @@ if(condition) {
 } else {
   //some other code
 }
+
+Lesson 5:
+Translate course
+Lesson Takeaways
+
+The <b>switch </b>statement is a handy way to check for multiple values and run code.
+
+- Remember, that each <b>case </b>is followed by a value and a colon.
+
+- Each case needs a <b>break </b>statement, or the code of the other cases will continue to get executed.
+
+ - The <b>default </b>case can be used to run code if none of the cases match.
+
+In the next lesson, we will learn how to check for multiple conditions.
+
+Lesson 6:
+
