@@ -1,3 +1,5 @@
+Module 1:
+
 Lesson 1 :
 
 Lesson Takeaways
@@ -177,4 +179,32 @@ They can contain notes, todos as well as code that is work-in-progress.
 // starts a single line comment.
 
 /* */ is used for multi-line comments.
+
+Module 1 Finished.
+
+Module 2:
+Lesson 1: 
+Lesson Takeaways 
+
+That's how you take input from the user in Java!
+
+Here are the steps:
+
+1. import the java.util.Scanner class.
+
+2. create a Scanner object:
+Scanner sc = new Scanner(System.in);
+
+3. Use the corresponding method of the Scanner to take input, for example:
+import java.util.Scanner;
+
+class Demo {
+    public static void main(String[ ] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        System.out.println(num);        
+    }
+}
+
+Lesson 2:
 
