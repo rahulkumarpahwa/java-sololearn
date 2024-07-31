@@ -231,3 +231,21 @@ class Demo {
 }
 
 Lesson 3:
+Lesson Takeaways
+
+Now you know how to make decisions in your code! Here are some key takeaways:
+
+You can check for a condition using the if statement.
+
+In case the condition is false, the code in an else statement can be executed.
+
+Here is a generic structure of if-else statements:
+
+if(condition) {
+  //some code
+} else if(condition) {
+//some other code
+} else {
+  //some other code
+}
+

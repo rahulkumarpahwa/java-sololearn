@@ -89,3 +89,115 @@ public class Program {
 
 //chapter 2 Finished.
 
+//chapter 3:
+// Decision Making
+
+// Conditional statements are used to perform different actions based on different conditions. 
+// For example, a billing program can apply a discount to the total only if the amount is greater than a threshold. 
+// Let's learn how to create such programs.
+
+
+
+// The if statement is one of the most frequently used conditional statements. If the if statement's condition is true, the block of code inside the if statement is executed. 
+
+// syntax:
+if (condition) {
+  //some code 
+}
+
+// if Statement
+// Any of the following comparison operators may be used to form the condition:
+// < less than
+// > greater than
+// != not equal to
+// == equal to
+// <= less than or equal to
+// >= greater than or equal to
+
+//For example:
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 24;
+        if(age >= 18) {
+            System.out.println("Welcome");
+        }     
+    }
+}
+
+// This code will output the message only if the age value is greater or equal to 18.
+
+//Remember that you need to use two equal signs (==) to test for equality, since a single equal sign is the assignment operator.
+
+// For example:
+class Demo {
+    public static void main(String[ ] args) {
+        int number = 8;
+        if(number == 8) {
+            System.out.println("Bingo");
+        }
+    }
+}
+
+//else Statement
+// An if statement can be followed by an optional <b>else </b>statement, which executes when the condition evaluates to false.
+
+// For example:
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 30;
+
+        if (age < 16) {
+            System.out.println("Too Young");
+        } else { 
+           System.out.println("Welcome!");
+        }
+    }
+}
+
+//As <b>age </b>equals 30, the condition in the <b>if </b>statement evaluates to false and the <b>else </b>statement is executed.
+
+//Nested if Statements
+// You can use one if-else statement inside another <b>if</b> or <b>else </b>statement.
+
+// For example:
+
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 25;
+        if(age > 0) {
+          if(age > 16) {
+              System.out.println("Welcome!");
+          } else {
+              System.out.println("Too Young");
+          }
+        } else {
+            System.out.println("Error");
+        }
+    }
+}
+
+//You can nest as many if-else statements as you want, however the code will become harder to read and understand.
+
+// else if Statements
+// Instead of using nested if-else statements, you can use the else if statement to check multiple conditions.
+// For example:
+
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 25;
+
+        if(age <= 0) {
+           System.out.println("Error");
+        } else if(age <= 16) {
+           System.out.println("Too Young");
+        } else if(age < 100) {
+           System.out.println("Welcome!");
+        } else {
+           System.out.println("Really?");
+        }
+    }
+}
+
+// You can include as many else if statements as you need.
+
+//chapter 3 Finished.
