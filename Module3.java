@@ -100,3 +100,112 @@ public class Program {
 }
 
 // chapter 2 Finished.
+
+//chapter 3:
+// Arrays
+
+// Let's learn how to output the items of an array using a loop.To use a loop, we first need to find out how many items the array stores.For that, the array has a <b>length </b>property, which is accessed like this:
+
+public class Demo {
+    public static void main(String[] args) {
+        int[] ages = {18, 33, 24, 64, 45};
+        System.out.println(ages.length);
+	}
+}
+
+//This will output the number of items stored in the array.
+
+//Now, when we know the number of items, we can use a <b>for </b>loop and output all the items of the array:
+public class Demo {
+    public static void main(String[] args) {
+        int[] ages = {18, 33, 24, 64, 45};
+
+        for(int x=0;x<ages.length;x++) {
+            System.out.println(ages[x]);
+        }
+	}
+}
+
+//We used the <b>x</b> variable of the loop as the index for our array. During each iteration of the loop, the next item of the array is accessed.
+
+//We can also use a for loop to make calculations using array values. For example, let's calculate the sum of all values in an array:
+public class Demo {
+    public static void main(String[] args) {
+        int[] ages = {18, 33, 24, 64, 45};
+        int sum = 0;
+        for(int x=0;x<ages.length;x++) {
+            sum += ages[x];
+        }
+        System.out.println(sum);
+    }
+}
+
+//In the code above, we declared a variable <b>sum </b>to store the result and assigned it 0. Then we used a <b>for </b>loop to iterate through the array, and added each item's value to the variable.
+
+//for-each Loop
+// Java provides another version of the <b>for </b>loop, called the for-each loop, to loop over arrays, making the code shorter and easier to read.
+// Here it is:
+
+public class Demo {
+    public static void main(String[] args) {
+        int[] nums = {2, 3, 5, 7};
+
+        for (int x: nums) {
+            System.out.println(x);
+        }
+    }
+}
+
+//The loop creates a variable, which automatically is assigned to each value of the array during the loop. You can call the variable anything you want: we called it <b>x</b> in our example.
+//Notice the colon after the variable - it reads as "for each x in nums".
+
+//Let's use a for-each loop to calculate the sum of all values of an array:
+
+public class Demo {
+    public static void main(String[] args) {
+        int[] ages = {18, 33, 24, 64, 45};
+        int sum = 0;
+        for(int x: ages) {
+            sum += x;
+        }
+        System.out.println(sum); 
+    }
+}
+//Note, that in this case we do not have the index, we have the value of each item of the array.
+
+//chapter 3 Finished.
+
+//chapter 4:
+// PRACTICE EXERCISE
+// Annual Revenue
+
+// The given code declares an array that holds the monthly revenues for a company for a year.
+// You need to calculate the average monthly revenue for the year.
+// For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
+// You can find the number of items in the array using the <b>length </b>property. As the array is of type <b>double</b>, output the result as a double.
+
+public class Program {
+    public static void main(String[] args) {
+        double[] revenue = {88750, 125430, 99700, 14500, 158000, 65000, 99000, 189000, 210000, 42000, 165800, 258900};
+        //your code goes here
+       
+    }
+}
+
+// My Solution:
+
+public class Program {
+    public static void main(String[] args) {
+        double[] revenue = {88750, 125430, 99700, 14500, 158000, 65000, 99000, 189000, 210000, 42000, 165800, 258900};
+        double items = revenue.length;
+        double sum = 0;
+
+        for(double x: revenue){
+            sum += x;
+        }
+        System.out.println(sum/items);
+    }
+}
+
+//chapter 4 Finished.
+

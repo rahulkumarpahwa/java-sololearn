@@ -429,3 +429,47 @@ You can also create an array with values using the following syntax:
 int[] nums = {4, 6, 2, 1};
 
 In the next lesson we will learn how to loop over the values of an array and make calculations.
+
+Lesson 3:
+Lesson Takeaways
+
+Looping over arrays is fun!
+
+You can use a <b>for </b>loop to loop over an array.
+
+The <b>length </b>property is used to get the number of items of the array.
+
+for(int x=0;x<arr.length; x++) {
+//current item is arr[x]
+}
+
+Another way to loop over arrays is the for-each loop:
+
+for(int x: arr) {
+// current item is x
+}
+
+We will learn about multidimensional arrays in the next lesson!
+
+Lesson 4:
+
+Lesson Takeaways
+
+Looping over arrays is fun!
+
+You can use a <b>for </b>loop to loop over an array.
+
+The <b>length </b>property is used to get the number of items of the array.
+
+for(int x=0;x<arr.length; x++) {
+//current item is arr[x]
+}
+
+Another way to loop over arrays is the for-each loop:
+
+for(int x: arr) {
+// current item is x
+}
+
+We will learn about multidimensional arrays in the next lesson!
+
