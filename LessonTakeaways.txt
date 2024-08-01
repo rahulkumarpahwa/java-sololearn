@@ -357,3 +357,17 @@ We will learn about another loop type in the next lesson!
 
 Lesson 11:
 
+Lesson Takeaways
+
+Great progress! Here is a summary:
+
+ - The for loop has the following syntax:
+ 
+ for(init; condition; increment) {
+   //code
+}
+
+- The break statement can be used to stop a loop.
+
+- The continue statement can be used to skip the current iteration of the loop and jump to the next one.
+
