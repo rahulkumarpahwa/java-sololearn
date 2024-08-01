@@ -646,3 +646,49 @@ class Demo {
 // The difference between while and do-while is that do-while is guaranteed to run at least once, even with a false condition. Try changing the condition in the code above and see the result.
 
 //chapter 9 Finished.
+
+//chapter 10:
+// PRACTICE EXERCISE
+// Sum
+
+// Your math teacher asked you to calculate the sum of the numbers 1 to N, where N is a given number.
+// Task: Take an integer N from input and output the sum of the numbers 1 to N, inclusive.
+
+// Sample Input:
+// 10
+// Sample Output:
+// 55
+
+//The sum of the numbers 1 to 10 is 55.
+
+import  java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        //your code goes here
+        
+    }
+
+}
+
+//my solution:
+
+import  java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+        int sum = 0;
+
+        for(int i=0; i<=input; i++){
+            sum+=i;
+        }
+        System.out.println(sum);
+        
+    }
+
+}
+
+// chapter 10 Finished.
+

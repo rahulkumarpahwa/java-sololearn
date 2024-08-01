@@ -340,3 +340,20 @@ Here is a summary about the <b>while </b>loop:
 We will learn about another loop type in the next lesson!
 
 Lesson 10:
+
+Lesson Takeaways
+
+Here is a summary about the <b>while </b>loop:
+
+- The code in the <b>while </b>loop runs as long as the condition is true.
+
+- The ++ and -- operators are used to increase and decrease the value of a variable by one.
+
+- Java provides shorthand operators to perform mathematical operations on a variable, for example x = x * 9; can be written as x * = 9.
+
+- The do-while loop is similar to a <b>while </b>loop, but it is guaranteed to run at least once.
+
+We will learn about another loop type in the next lesson!
+
+Lesson 11:
+
