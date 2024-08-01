@@ -790,3 +790,40 @@ class Demo {
 // An airline ticketing system needs to calculate the total cost for all tickets purchased. Tickets for children under the age of 3 are free. We can use a while loop to iterate through the list of passengers and calculate the total cost of their tickets. Here, the continue statement can be used to skip the children.
 
 // chapter 11 Finished.
+
+//chapter 12:
+
+// PRACTICE EXERCISE
+// Factorial
+
+// The factorial of a number N is equal to 1 * 2 * 3 * ... * N
+// For example, the factorial of 5 is 1* 2 * 3 * 4 * 5  = 120.
+// Create a program that takes a number from input and output the factorial of that number.
+// Use a for loop to make the calculation, and start the loop from the number 1.
+
+import java.util.Scanner;
+
+class Demo{
+    public static void main(String[] args) {
+        long fact = 1;
+   }
+}
+
+// My Solution:
+
+import java.util.Scanner;
+
+class Demo{
+    public static void main(String[] args) {
+        long fact = 1;
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+
+        for(int i=1; i<=input; i++){
+            fact *=i;
+        }
+        System.out.println(fact);
+   }
+}
+
+// chapter 12 Finished.
