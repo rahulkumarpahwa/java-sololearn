@@ -412,3 +412,20 @@ In the next lesson we will learn how to loop over the values of an array and mak
 
 Lesson 2 :
 
+Lesson Takeaways
+
+Awesome! Here are some key points about arrays:
+
+Arrays allow you to store multiple values in a variable.
+
+When creating an array, we need to provide the type of the items and the size of the array, like this:
+
+int[] nums = new int[4];
+
+Array items are accessed using their indexes, placed in square brackets. The first item has the index 0.
+
+You can also create an array with values using the following syntax:
+
+int[] nums = {4, 6, 2, 1};
+
+In the next lesson we will learn how to loop over the values of an array and make calculations.

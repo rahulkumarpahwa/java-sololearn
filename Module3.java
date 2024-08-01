@@ -57,5 +57,46 @@ public class Demo {
 // chapter 1 Finished.
 
 //chapter 2:
+// PRACTICE EXERCISE
+// Vending Machine
 
+// You are making a program for a vending machine that provides drinks. The menu of the drinks is stored in an array called menu:
 
+String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"}; 
+
+//Take the choice of the customer as an integer from input and output the corresponding menu item.Also, check for errors: in case the input is out of the range of the array, output "Invalid".
+
+//The choice defines the index of the array.
+
+import  java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"};
+        Scanner sc = new Scanner(System.in);
+        //your code goes here
+        
+    }
+
+}
+
+//my Solution:
+import  java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"};
+        Scanner sc = new Scanner(System.in);
+        
+        int input = sc.nextInt();
+        if( input >=0 && input<=4){
+           System.out.println(menu[input]);
+        } else {
+          System.out.println("Invalid");
+        }
+        
+    }
+
+}
+
+// chapter 2 Finished.
