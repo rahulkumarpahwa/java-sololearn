@@ -209,3 +209,60 @@ public class Program {
 
 //chapter 4 Finished.
 
+//chapter 5:
+
+//Multidimensional Arrays
+
+// Arrays can have multiple dimensions (or number of indices).
+// For example, imagine a ticketing program that is storing seat numbers in a stadium, which have a row and column number.
+// Or a chess board, where each square has 2 coordinates: a letter and a number
+// The arrays in these examples have 2 dimensions.
+
+//To create multidimensional arrays, place each array within its own set of square brackets:
+int[ ][ ] sample = { {1, 2, 3}, {4, 5, 6} };
+
+// Note that the array is created using two square brackets, specifying the two-dimensionality.
+// To access an element in the two-dimensional array, provide two indexes, one for the array, and another for the element inside that array.The following example accesses the first element in the second array of sample:
+
+public class Demo {
+    public static void main(String[] args) {
+        int[][] sample = { {1, 2, 3}, {4, 5, 6} };
+        int x = sample[1][0];
+        System.out.println(x);
+    }
+}
+
+// The array's two indexes are called row index and column index. Here is how we can visualize it:
+public class Demo {
+    public static void main(String[] args) {
+        int[][] sample = { 
+         {1, 2, 3}, 
+         {4, 5, 6} 
+        }; 
+        int x = sample[1][0];
+        System.out.println(x);
+    }
+}
+
+//Each row is an item, which is an array. So, to access a value, we provide the row index, then the column index.
+
+// Looping
+
+// To loop over a 2-dimensional array, we need nested <b>for </b>loops:
+
+public class Demo {
+    public static void main(String[] args) {
+        int[][] sample = {
+        {1, 2, 3},
+        {4, 5, 6}
+        };
+        for(int x=0; x<sample.length; x++) {
+            for(int y=0; y<sample[x].length; y++) {
+                System.out.println(sample[x][y]);
+            }
+        }  
+    }
+}
+
+// The first loop iterates over the rows, and the second one over their items.
+
