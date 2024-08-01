@@ -526,4 +526,123 @@ public class Program {
 
 //chapter 8 Finished.
 
+//chapter 9:
 
+// Loops
+
+// Loops allow you to repeat a block of code multiple times. For example, a banking app can loop over all bank transactions and check for some conditions.
+
+// while Loops
+
+// A <b>while </b>loop statement repeatedly executes a target statement as long as a given condition is true. Example:
+
+class Demo {
+    public static void main(String[ ] args) {
+        int x = 3;
+
+        while(x > 0) {
+            System.out.println(x);
+            x = x-1;
+        }
+    }
+}
+
+//The <b>while </b>loops check for the condition x &gt; 0. If it evaluates to true, it executes the statements within its body. Then it checks for the statement again and repeats.
+//The code above will output the numbers 3 to 1, and then stop, as the condition will become false, after x reaches 0.
+
+// Let's look at the code again:
+class Demo {
+    public static void main(String[ ] args) {
+        int x = 3;
+
+        while(x > 0) {
+            System.out.println(x);
+            x = x-1;
+        }
+    }
+}
+
+//The line <b>x</b> = <b>x-1</b>; is important, as without it the condition would never become false and the loop would run forever. Each time the loop runs, 1 is subtracted from x.
+
+//while Loops
+// As it is common to decrease or increase a variable by 1 during loops, Java provides increment and decrement operators. These are a shorter way to increase or decrease the value of a variable by one.
+// For example, the statement x=x-1; can be simplified to <b>x--</b>;
+
+class Demo {
+    public static void main(String[ ] args) {
+        int x = 3;
+
+        while(x > 0) {
+            System.out.println(x);
+            x--;
+        }
+    }
+}
+
+
+// Similarly, the increment operator ++ is used to increase the value of a variable by one.Here is a loop that outputs the numbers 1 to 10:
+
+class Demo {
+    public static void main(String[ ] args) {
+        int x = 1;
+
+        while(x <= 10) {
+            System.out.println(x);
+            x++;
+        }
+    }
+}
+
+//Some loops require to increase or decrease the value of a variable by a different number.For example, lets output only the even numbers from 0 to 10.
+
+class Demo {
+    public static void main(String[ ] args) {
+        int x = 0;
+
+        while(x <= 10) {
+            System.out.println(x);
+            x=x+2;
+        }
+    }
+}
+
+// Surprise! There is also a shorter way for x = x+2; It can be written as <b>x+</b>=<b>2</b>;
+// Similarly, there are shorthand operators for other mathematical operations, such as -= for subtraction, *= for multiplication, etc.
+
+//You can perform calculations and other operations in loops. For example, let's calculate the sum of the numbers from 1 to 100 and output it:
+
+class Demo {
+    public static void main(String[ ] args) {
+        int sum = 0;
+        int num = 0;
+
+        while(num <= 100) {
+            sum += num;
+            num++;
+        }
+        System.out.println(sum);
+
+    }
+}
+
+//We add the value of num to sum each time the loop runs, and then increase the num value by 1. At the end of the loop, <b>sum </b>holds the result of our calculation.
+//Notice that the last print statement is out of the while scope.
+
+//do-while Loops
+// Another variation of the while loop is do-while. For example:
+
+class Demo {
+    public static void main(String[ ] args) {
+        int x = 1;
+        do {
+            System.out.println(x);
+            x++;
+        } while(x < 5);
+    }
+}
+
+// Notice that the condition appears at the end of the loop, so the statements in the loop execute once before it is tested. Even with a false condition, the code will run once. Also, note the semicolon after the while condition.
+
+// The difference between while and do-while is that do-while is guaranteed to run at least once, even with a false condition. Try changing the condition in the code above and see the result.
+
+//chapter 9 Finished.
