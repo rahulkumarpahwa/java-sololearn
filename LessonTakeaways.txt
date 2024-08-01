@@ -386,3 +386,8 @@ Great progress! Here is a summary:
 
 - The continue statement can be used to skip the current iteration of the loop and jump to the next one.
 
+Module 2 Finished.
+
+Module 3:
+
+Lesson 1:
