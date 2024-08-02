@@ -268,3 +268,61 @@ public class Demo {
 
 //chapter 5 Finished.
 
+//chapter 6:
+
+// PRACTICE EXERCISE
+// Movie Theater
+// You are creating a ticketing program for a small movie theater.
+// The seats are represented using a 2-dimensional array.
+// Each item can have the values 1 and 0 - 1 is occupied, and 0 if it's free.
+// Your program needs to take as input the row and the column of the seat and output <b>Free</b> if it's free, and <b>Sold</b>&nbsp;if it's not.
+
+import java.util.Scanner;
+
+public class Program {
+    
+    public static void main(String[] args) {
+        int[][] seats = {
+        {0, 0, 0, 1, 1, 1, 0, 0, 1, 1},
+        {1, 1, 0, 1, 0, 1, 1, 0, 0, 0},
+        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+        {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
+        {0, 1, 1, 1, 0, 0, 0, 1, 1, 1}
+        };
+        Scanner sc = new Scanner(System.in);
+        //your code goes here
+        
+
+    }
+
+}
+
+//my solution:
+
+import java.util.Scanner;
+
+public class Program {
+    
+    public static void main(String[] args) {
+        int[][] seats = {
+        {0, 0, 0, 1, 1, 1, 0, 0, 1, 1},
+        {1, 1, 0, 1, 0, 1, 1, 0, 0, 0},
+        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+        {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
+        {0, 1, 1, 1, 0, 0, 0, 1, 1, 1}
+        };
+        Scanner sc = new Scanner(System.in);
+        int row = sc.nextInt();
+        int column = sc.nextInt();
+
+        if( seats[row][column] == 1 ){
+            System.out.println("Sold");
+        } else {
+            System.out.println("Free");
+        }
+
+    }
+
+}
+
+// chapter 6 Finished.
