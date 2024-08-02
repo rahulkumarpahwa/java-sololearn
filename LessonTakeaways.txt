@@ -520,3 +520,20 @@ Great job! Here are the main points to remember when defining your own methods:
  - The <b>void </b>keyword means that the method does not return a value.
 
 We will learn about return values in the next lessons, so stay tuned!
+
+Lesson 3:
+Lesson Takeaways
+
+Method parameters are awesome!
+
+Here is a summary:
+
+ - You can define parameters in the parentheses.
+
+ - Multiple parameters need to be separated by commas.
+
+ - The parameters are available in the method, like variables of the given names.
+
+ - When calling a method, you need to provide its parameters in the same order, as defined.
+
+You will learn how to return values in the next lesson.

@@ -116,3 +116,68 @@ public class Program {
 }
 
 // chapter 2 Finished.
+
+// chapter 3:
+
+// Method parameters
+// Methods can have parameters that can be used in their code.
+// Parameters are defined in parentheses and can act as variables in a method.
+// For example, let's add a String parameter called name to our welcome() function:
+
+static void welcome(String name) {
+  System.out.println("Welcome, " + name);
+}
+
+// The above method takes a String called name as its parameter, which is used in the method.
+//Now, when calling the method, we need to pass it a value for the <b>name </b>parameter inside the parentheses:
+
+class Demo {
+    static void welcome(String name) { 
+        System.out.println("Welcome, "+name);
+    }
+    public static void main(String[] args) {
+        welcome("James");
+        welcome("Amy");
+    }
+}
+
+//This way, we can call our method with different parameters and generate different results based on them.
+//The values passed as parameters are called arguments.
+
+//Methods can take multiple parameters. For that, we simply need to separate them using commas, for example:
+static void welcome(String name, int age) {
+  System.out.println("Welcome, "+name);
+  System.out.println("Your age: "+age);
+}
+
+// Now, our <b>welcome</b>() method takes a String and an integer as its parameters.
+//Now, when calling the function, we need to provide all the parameters:
+
+class Demo {
+    static void welcome(String name, int age) {
+        System.out.println("Welcome, "+name);
+        System.out.println("Your age: "+age);
+    }
+    public static void main(String[] args) {
+        welcome("James", 42);
+        welcome("Amy", 25);
+    }
+}
+
+//Note that the arguments need to match the parameters and must be passed in the same order.
+
+// Method Parameters
+// Method parameters are really handy! They allow our method to work with different values and produce results.
+// For example, we can create a method to calculate a given percentage of a number and output it:
+
+class Demo {
+    static void perc(double num, int percentage) {
+        double res = num*percentage/100;
+        System.out.println(res);
+    }
+    public static void main(String[] args) {
+        perc(530, 23);
+    }
+}
+
+// chapter 3 Finished.
