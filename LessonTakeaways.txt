@@ -493,3 +493,17 @@ The number of square brackets match the dimension of the array, for example [][]
 To access the items of the array, specify the row index in the first square brackets, followed by the column index in the second.
 
 Module 3 Finished.
+
+Module 4:
+Lesson 1:
+Lesson Takeaways
+
+Great job! Here are the main points to remember when defining your own methods:
+
+ - Methods are reusable, we define them once and can call them multiple times.
+
+ - To call a method, use its name, followed by parentheses.
+
+ - The <b>void </b>keyword means that the method does not return a value.
+
+We will learn about return values in the next lessons, so stay tuned!
