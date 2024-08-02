@@ -507,3 +507,16 @@ Great job! Here are the main points to remember when defining your own methods:
  - The <b>void </b>keyword means that the method does not return a value.
 
 We will learn about return values in the next lessons, so stay tuned!
+
+Lesson 2:
+Lesson Takeaways
+
+Great job! Here are the main points to remember when defining your own methods:
+
+ - Methods are reusable, we define them once and can call them multiple times.
+
+ - To call a method, use its name, followed by parentheses.
+
+ - The <b>void </b>keyword means that the method does not return a value.
+
+We will learn about return values in the next lessons, so stay tuned!
