@@ -582,3 +582,5 @@ Here is a quick recap for returning from methods:
  - The method needs to have its return type specified before its name.
 
  -  The returned value can be assigned to a variable when calling the method.
+
+ Module 4 Finished.
