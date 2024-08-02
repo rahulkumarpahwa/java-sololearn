@@ -223,3 +223,80 @@ public class Program {
 }
 
 // chapter 4 Finished.
+
+// chapter 5:
+
+//Return Values
+// The methods we have seen so far output their result.
+// In some cases we do not need to output the result, but need to assign it to a variable, to work with it in our program.
+// In these cases, we need our method to <b>return </b>the result value.
+
+// The Return Type
+
+// Consider a method from our previous lesson, that was used to output a percentage of the given value:
+static void perc(double num, int percentage) {
+  double res = num*percentage/100;
+  System.out.println(res);
+}
+
+//The <b>void </b>keyword in the definition specifies that the method does not return any value.
+
+// Here is the same function definition, specifying the return type to be a <b>double</b>:
+
+static double perc(double num, int percentage) {
+  ...
+}
+
+//This means that our <b>perc </b>method will return a value of type <b>double</b>.
+
+// Now, we can return our result using the <b>return</b> keyword:
+static double perc(double num, int percentage) {
+  double res = num*percentage/100;
+  return res;
+}
+
+// The <b>return </b>keyword stops the method from executing. If there are any statements after <b>return</b>, they won't run.
+
+// After we have created our method that returns a value, we can call it in our code and assign the result to a variable:
+class Demo {
+    static double perc(double num, int percentage) {
+        double res = num*percentage/100;
+        return res;
+    }
+    public static void main(String[] args) {
+        double x = perc(530, 23);
+        System.out.println("Result is: "+x);
+    }
+}
+
+// OUTPUT Result is: 121.9
+// Returning is useful when you don't need to print the result of the method, but need to use it in your code. For example, a bank account's <b>withdraw</b>() method could return the remaining balance of the account.
+
+// Returning a Value
+
+// Let's create a method that takes integer parameter, checks if the <b>grade</b> is over 70 and returns a <b>boolean</b> <b></b>result.
+
+// Then, let's use it in <b>main</b>:
+class Demo {
+    static boolean check(int grade) {
+        if(grade >=70) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main(String[] args) {
+        int x = 89;
+        if(check(x) == true) {
+            System.out.println("Congrats!");
+        } 
+    }
+}
+
+// As you can see, we can use the method in an <b>if</b> statement, because it returns a <b>boolean </b>value.
+// The method can be used anywhere in our program to check if the grade is passing or not. In case anything changes in the logic of the check, we will need to modify the method only, without touching the rest of the program.
+
+// chapter 5 Finished.
+
+
+

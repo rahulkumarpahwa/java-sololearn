@@ -555,3 +555,18 @@ Here is a summary:
  - When calling a method, you need to provide its parameters in the same order, as defined.
 
 You will learn how to return values in the next lesson.
+
+Lesson 5:
+
+Lesson Takeaways
+
+You did it! This was the last lesson of this course.
+
+Here is a quick recap for returning from methods:
+
+ - Use the <b>return</b> statement to return a value from your method.
+
+ - The method needs to have its return type specified before its name.
+
+ -  The returned value can be assigned to a variable when calling the method.
+ 
